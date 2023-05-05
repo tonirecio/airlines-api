@@ -13,7 +13,7 @@ server.use(cors())
 server.use(express.json())
 
 let airlines = [
-  { iataId: 'GA', name: 'Garuda Indonesia' },
+  { iataId: 'GA', name: 'Garuda Indones' },
   { iataId: 'SU', name: 'Aeroflot' },
   { iataId: 'LH', name: 'Lufthansa' },
   { iataId: 'QR', name: 'Qatar Airways' },
