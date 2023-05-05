@@ -1,0 +1,7 @@
+POST http://localhost:3023/airlines
+Content-Type: application/json
+
+{
+  "iataId": "BA",
+  "name": "British Airways"
+}

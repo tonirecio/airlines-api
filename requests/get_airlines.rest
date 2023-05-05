@@ -1,0 +1,3 @@
+GET http://localhost:3023/airlines
+###
+GET http://localhost:3023/airlines/SU

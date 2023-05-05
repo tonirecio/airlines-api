@@ -1,0 +1,23 @@
+{
+  "name": "airlines-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tonirecio/airlines-api.git",
+  "author": "mail@tonirecio.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn nodemon index.js",
+    "lint": "yarn standard",
+    "start": "node index.js",
+    "start-http": "yarn nodemon index-http.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
